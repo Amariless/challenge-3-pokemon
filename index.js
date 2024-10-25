@@ -46,4 +46,5 @@ const cardsHtml = data.pokemon.map((pokemonData)=>{
   return getCardsHtml(pokemonData)
 }).join("")
 
+
 cardsContainer.innerHTML = cardsHtml
